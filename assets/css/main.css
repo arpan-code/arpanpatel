@@ -1554,11 +1554,11 @@
 
 	}
 
-/* Basic */
+/* Basic */ 
 
 	body {
-		background: #f0f4f4;
-		color: #5b5b5b;
+		background: #C8C1C0;
+		color: #09090A;
 		font-size: 15pt;
 		line-height: 1.85em;
 		font-family: 'Source Sans Pro', sans-serif;
@@ -2089,7 +2089,7 @@
 /* Wrapper */
 
 	.wrapper {
-		background: #fff;
+		background: #E2DEE8;
 		margin: 0 0 2em 0;
 		padding: 6em 0 6em 0;
 	}
