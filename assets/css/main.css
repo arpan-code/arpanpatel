@@ -12,7 +12,7 @@
 	text-align: center !important;
 	line-height: 90%;
 }
-.resume{
+.aboutme{
 	display: block;
 	margin: 0 auto;
 	border-radius: 50%;
@@ -2225,6 +2225,8 @@
 		padding: 1.5em 0 1.5em 0;
 		z-index: 1;
 		overflow: hidden;
+		/*transition: top 0.3s;*/
+		/*background-color: #000000; */
 	}
 
 		#nav > ul {
