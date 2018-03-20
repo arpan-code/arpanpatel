@@ -7,5 +7,5 @@ $(document).ready(function(){
         		$('.java').animate({width:'50%'},2000);
         		$('.php').animate({width:'70%'},2000);
         		$('.sql').animate({width:'60%'},2000);
-        		$('.git').animate({width:'90s%'},2000);
+        		$('.git').animate({width:'90%'},2000);
         	});
