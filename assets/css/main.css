@@ -94,9 +94,16 @@
 .bootstrapColor{
 	background: #400080;
 }
+.wpColor{
+	background: #00a0d2;
+}
+.drupalColor{
+	background: #3399ff;
+}
 .pythonColor{
 	background: #8080ff
 }
+
 .javaColor{
 	background: #adadeb;
 }
@@ -123,6 +130,12 @@
 }
 .bootstrap{
 	background:#a34dff;
+}
+.wp{
+	background: #4da6ff;
+}
+.drupal{
+	background: #99ccff;
 }
 .python{
 	background:#ffff4d;
