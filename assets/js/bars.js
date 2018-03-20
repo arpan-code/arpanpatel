@@ -1,0 +1,11 @@
+$(document).ready(function(){
+        		$('.html').animate({width:'90%'},2000);
+        		$('.css').animate({width:'75%'},2000);
+        		$('.js').animate({width:'50%'},2000);
+        		$('.bootstrap').animate({width:'70%'},2000);
+        		$('.python').animate({width:'85%'},2000);
+        		$('.java').animate({width:'50%'},2000);
+        		$('.php').animate({width:'70%'},2000);
+        		$('.sql').animate({width:'60%'},2000);
+        		$('.git').animate({width:'90s%'},2000);
+        	});

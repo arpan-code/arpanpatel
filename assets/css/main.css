@@ -16,8 +16,134 @@
 	display: block;
 	margin: 0 auto;
 	border-radius: 50%;
+	width: 100%
+	height: auto;
 }
 
+.skillsbar{
+	display: block;
+	margin: 0 auto;
+	border-radius: 70%;
+	width: 100%
+	height: auto;
+
+*{
+	margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+}
+.main{
+	margin: 50px auto;
+    width: 60%;
+}
+.progressBar{
+	position: relative;
+    width: 100%;
+    height: 40px;
+    background: #eeeeee;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px #222;
+}
+.title{
+	position: absolute;
+    width: 100px;
+    height: 40px;
+    padding-left: 10px;
+    float: left;
+    font-weight: bold;
+    color: #fff;
+    line-height: 2.5;
+    z-index: 10000;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 2px 0 2px #333;
+    text-shadow: 1px 1px 1px #000;
+}
+.progress_value{
+	position: relative;
+    float: right;
+    padding-right: 10px;
+    line-height: 2.5;
+    font-weight: bold;
+    color: #455a64;
+    z-index: 10000;
+  }
+  .progress_color{
+  	height: 40px;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 2px 0 2px #555;
+}
+
+
+.htmlColor{
+	background: #b71c1c;
+}
+.cssColor{
+    background: #0080ff;
+}
+.jsColor{
+	background: #1a237e;
+}
+.bootstrapColor{
+	background: #400080;
+}
+.pythonColor{
+	background: #8080ff
+}
+.javaColor{
+	background: #adadeb;
+}
+.phpColor{
+	background: #336699;
+}
+.sqlColor{
+	background: #8585ad;
+}
+.gitColor{
+	background: #000000;
+}
+
+
+/*bar background color*/
+.html{
+	background: #ff6600;
+}
+.css{
+	background: #0000ff; 
+}
+.js{
+	background: #5c6bc0;
+}
+.bootstrap{
+	background:#a34dff;
+}
+.python{
+	background:#ffff4d;
+}
+.java{
+	background:#ff0000;
+}
+.php{
+	background: #000000;
+}
+.sql{
+	background:#66bb6a;
+}
+.git{
+	background: #cccccc;
+}
+@media (max-width: 720px) {
+	.main{
+		width: 90%;
+	}
+}
 
 
 
