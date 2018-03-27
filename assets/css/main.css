@@ -25,7 +25,11 @@
 	border-radius: 70%;
 	width: 100%
 	height: auto;
+}
+.form-group{
+	text-decoration-color: #000000;
 
+}
 *{
 	margin: 0;
     padding: 0;
@@ -157,7 +161,26 @@
 	}
 }
 
-
+.contact-form{
+ margin: 6em 0;
+ position: relative;  
+}
+.contact-form h1{
+ padding:2em 1px;
+ color: #F97300; 
+}
+.contact-form .right{
+ max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+ background:  #F97300;
+ color: #fff;
+ border:0;
+}
+.contact-form .right .form-control::placeholder{
+ color: #888;
+ font-size: 16px;
+}
 
 /* Reset */
 
@@ -1731,7 +1754,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #483949;
+		color: #01010c;
 		line-height: 1.25em;
 	}
 
